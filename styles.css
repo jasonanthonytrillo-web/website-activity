@@ -224,9 +224,9 @@ footer {
 }
 
 .contact-form .btn {
-    width: 130px; /* Increase the width of the button */
-    padding: 10px 15px; /* Add more padding for a larger button */
-    font-size: 13px; /* Increase font size */
+    width: 130px; 
+    padding: 10px 15px; 
+    font-size: 13px; 
 }
 
 /* Responsive Design */
@@ -252,7 +252,7 @@ w
     display: flex;
     align-items: center;
     gap: 20px;
-    flex-direction: row-reverse; /* Place photo on the right and text on the left */
+    flex-direction: row-reverse; 
 }
 
 .about-photo {
@@ -262,7 +262,7 @@ w
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-left: 20px; /* Add space between text and photo */
+    margin-left: 20px; 
     margin-right: 0;
     
 }
@@ -274,11 +274,10 @@ w
 }
 
 .about-photo img:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
-    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow effect */.
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    transition: box-shadow 0.3s ease; .
 }
 
 .about-text {
     flex: 2;
-    text-align: left;
-}
+    text-align: left;}

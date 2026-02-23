@@ -12,6 +12,7 @@ body {
 }
 
 /* Navbar */
+
 .navbar {
     background: #81773e;
     padding: 15px 0;
@@ -40,10 +41,13 @@ body {
 }
 
 .nav-menu a {
+    display: block; 
+    padding: 10px 15px; 
     color: white;
     text-decoration: none;
     font-weight: normal;
 }
+
 
 /* Main Content */
 main {
@@ -73,6 +77,19 @@ main {
 .hero-content p {
     font-size: 20px;
     color: #666;
+}
+
+.hero-content .book-now {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #398455;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 /* Projects Section */
@@ -135,20 +152,20 @@ main {
 
 /* Buttons */
 .btn {
-    display: inline-block;
-    background: #333;
-    color: white;
+     display: inline-block;
     padding: 10px 20px;
+    background-color: #14b029;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    font-weight: normal;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    
 }
 
 /* Footer */
 footer {
-    background: #333;
+    background: #94693d;
     color: white;
     text-align: center;
     padding: 30px;
@@ -191,6 +208,12 @@ footer {
     font-family: Arial, sans-serif;
 }
 
+.contact-form .btn {
+    width: 130px; 
+    padding: 10px 15px; 
+    font-size: 13px; 
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
@@ -201,3 +224,40 @@ w
         gap: 10px;
     }
 }
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row-reverse; 
+}
+
+.about-photo {
+    flex: 1;
+    max-width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 20px; 
+    margin-right: 0;
+    
+}
+
+.about-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    flex: 2;
+    text-align: left;}
